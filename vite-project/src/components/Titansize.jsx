@@ -14,7 +14,7 @@ const TITANS = [
     desc    : 'Survey Corps soldier. The brave ones who dare to face the giants.',
     imgH    : 5.8,   
     imgW    : 5.9,   
-    img     : '/images/Human.png',
+    img     : `${import.meta.env.BASE_URL}images/Human.png`,
   },
   {
     id      : 'pure',
@@ -24,7 +24,7 @@ const TITANS = [
     desc    : 'Mindless and relentless. The most common threat beyond the walls.',
     imgH    : 14,
     imgW    : 10,
-    img     : '/images/PureTitan.png',
+    img     : `${import.meta.env.BASE_URL}images/PureTitan.png`,
   },
   {
     id      : 'armored',
@@ -34,7 +34,7 @@ const TITANS = [
     desc    : 'Reiner Braun. Hardened plates make it nearly impenetrable.',
     imgH    : 15.5,
     imgW    : 9,
-    img     : '/images/ArmoredTitan.png',
+    img     : `${import.meta.env.BASE_URL}images/ArmoredTitan.png`,
   },
   {
     id      : 'female',
@@ -44,7 +44,7 @@ const TITANS = [
     desc    : 'Annie Leonhart. Agile, crystalline, and terrifyingly intelligent.',
     imgH    : 23.5,
     imgW    : 12.5,
-    img     : '/images/FemaleTitan.png',
+    img     : `${import.meta.env.BASE_URL}images/FemaleTitan.png`,
   },
   {
     id      : 'beast',
@@ -54,7 +54,7 @@ const TITANS = [
     desc    : 'Zeke Yeager. Ape-like form with devastating projectile attacks.',
     imgH    : 30.5,
     imgW    : 18,
-    img     : '/images/BeastTitan.png',
+    img     : `${import.meta.env.BASE_URL}images/BeastTitan.png`,
   },
   {
     id      : 'colossal',
@@ -64,7 +64,7 @@ const TITANS = [
     desc    : 'Bertholdt Hoover. The one who broke the gate. Steam Incarnate.',
     imgH    : 50,
     imgW    : 28,
-    img     : '/images/col.png',
+    img     : `${import.meta.env.BASE_URL}images/col.png`,
   },
 ]
 
