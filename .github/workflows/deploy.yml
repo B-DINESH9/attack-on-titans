@@ -31,7 +31,7 @@ jobs:
           cache-dependency-path: 'vite-project/package-lock.json'
       - name: Install dependencies
         working-directory: ./vite-project
-        run: npm ci
+        run: npm install
       - name: Build
         working-directory: ./vite-project
         run: npm run build
